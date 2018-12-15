@@ -48,5 +48,25 @@
     "price": 35.95,
     "starRating": 4.6,
     "imageUrl": "https://openclipart.org/image/300px/svg_to_png/120337/xbox-controller_01.png"
+  },
+  {
+    "productId": 15,
+    "productName": "Teste prod",
+    "productCode": "GMG-0045",
+    "releaseDate": "December 15, 2018",
+    "description": "Teste",
+    "price": 109.99,
+    "starRating": 5,
+    "imageUrl": "https://openclipart.org/image/300px/svg_to_png/120337/xbox-controller_01.png"
+  },
+  {
+    "productId": 20,
+    "productName": "Teste prod 2",
+    "productCode": "GMG-1234",
+    "releaseDate": "December 15, 2018",
+    "description": "Teste 2",
+    "price": 999.99,
+    "starRating": 1,
+    "imageUrl": "https://openclipart.org/image/300px/svg_to_png/120337/xbox-controller_01.png"
   }
 ]
