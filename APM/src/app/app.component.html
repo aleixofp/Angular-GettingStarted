@@ -1,7 +1,9 @@
-<!--The whole content below can be removed with the new code.-->
-<div style="text-align:center">
-  <h1>
-    Teste1 Welcome to {{title}}!!
-  </h1>
-  ... Starter Files ...
-</div>
+<a class='navbar-brand'>{{pageTitle}}</a>
+  <ul class='nav nav-pills'>
+    <li><a class='nav-link' routerLinkActive='active' [routerLink]="['/welcome']">Home</a></li>
+    <li><a class='nav-link' routerLinkActive='active' [routerLink]="['/products']">Product List</a></li>
+    <li><a class='nav-link' routerLinkActive='active' [routerLink]="['/newProduct']">New Product</a></li>
+  </ul>
+  <router-outlet>
+
+  </router-outlet>
